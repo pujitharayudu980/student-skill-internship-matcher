@@ -45,3 +45,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 });
+// Skill Matching Feature
+const studentSkills = ["Python", "Java", "HTML", "CSS"];
+
+const internshipSkills = ["Python", "HTML", "CSS"];
+
+let matchedSkills = 0;
+
+studentSkills.forEach(function(skill) {
+    if (internshipSkills.includes(skill)) {
+        matchedSkills++;
+    }
+});
+
+console.log("Matched Skills:", matchedSkills);
