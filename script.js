@@ -59,3 +59,4 @@ studentSkills.forEach(function(skill) {
 });
 
 console.log("Matched Skills:", matchedSkills);
+document.getElementById("skillResult").innerText = "Matched Skills: " + matchedSkills;
