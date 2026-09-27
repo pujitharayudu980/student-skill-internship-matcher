@@ -1,3 +1,3 @@
-document.querySelector("button").addEventListener("click", function() {
+document.getElementById("findInternshipsBtn").addEventListener("click", function() {
     alert("Welcome to SkillBridge! 🚀");
 });
