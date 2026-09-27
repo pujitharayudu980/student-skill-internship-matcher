@@ -79,3 +79,33 @@ nav a {
 .internship-card p {
     margin: 10px 0;
 }
+.student-profile {
+    padding: 60px 20px;
+    text-align: center;
+    background: #eaf2ff;
+}
+
+.student-profile h2 {
+    font-size: 32px;
+    color: #1e3a8a;
+    margin-bottom: 30px;
+}
+
+.profile-form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-form input {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.profile-form button {
+    margin-top: 10px;
+}
